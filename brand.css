@@ -109,3 +109,31 @@ header h1 {
   text-justify: inter-word;
     
 }
+
+@media (max-width:500px) {
+    .main-text {
+        text-align: center;
+     
+        color:#FF00F7;
+        font-size:2rem;
+        margin-top: 60px;
+    
+    
+    }
+    
+    .small-span {
+        color:black;
+        font-size:1rem;
+    }
+    .container-rest p {
+        margin-top:3rem;
+        text-align:left;
+        font-size: 1.5rem;
+        color:#1E98FD;
+        letter-spacing:0px;
+        line-height: 1.25;
+        text-align: justify;
+      text-justify: inter-word;
+        
+    }
+}
