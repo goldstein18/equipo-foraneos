@@ -111,6 +111,26 @@ header h1 {
 }
 
 @media (max-width:500px) {
+     .container {
+        margin: 0 auto;
+        margin-top:16px;
+        width:85%;
+        
+        
+       /* border: 3px solid palegreen;*/
+        
+    }
+    
+    
+    .container-rest {
+        margin: 0 auto;
+        margin-top:16px;
+        width:85%;
+       
+        /*border:solid blue 1px;*/
+       
+        
+    }
     .main-text {
         text-align: center;
      
