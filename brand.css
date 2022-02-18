@@ -98,16 +98,20 @@ header h1 a:visited {
 .main-text {
     text-align: center;
  
-    color:#FF00F7;
-    font-size:80px;
+    color:white;
+    font-size:60px;
     margin-top: 10px;
+    background-color: black;
+    border-radius: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
 
 
 }
 
 .small-span {
-    color:#1E98FD;
-    font-size:32px;
+    color:#FF00F7;
+    font-size:30px;
 }
 
 .container-rest p {
@@ -119,7 +123,7 @@ header h1 a:visited {
     line-height: 1.8;
     text-align: justify;
   text-justify: inter-word;
-  margin-bottom:100px;
+  margin-bottom:50px;
     
 }
 footer {
@@ -171,15 +175,17 @@ footer a:hover {
         
         text-align: center;
      
-        color:#FF00F7;
+        color: white;
         font-size:2rem;
         margin-top: 60px;
+        padding:20px;
+        border-radius:10px;
     
     
     }
     
     .small-span {
-        color:#1E98FD;
+        color:#FF00F7;
         font-size:1rem;
     }
     .container-rest p {
@@ -203,4 +209,3 @@ footer {
     align-items: center;
 }
 }
-  
