@@ -20,13 +20,24 @@ header {
 
 
 
-header h1 {
-    color: black;
+header h1 a {
+    text-decoration: none;
     font-size:2rem;
     padding:0;
     margin:0;
   
+  
 }
+
+header h1 a:visited {
+    text-decoration: none;
+    font-size:2rem;
+    padding:0;
+    margin:0;
+
+  
+}
+
 
 
 .Foraneos {
@@ -44,6 +55,7 @@ header h1 {
     -webkit-text-fill-color: transparent;
 
 }
+
 
 
 .SForaneos {
@@ -94,7 +106,7 @@ header h1 {
 }
 
 .small-span {
-    color:black;
+    color:#1E98FD;
     font-size:32px;
 }
 
@@ -102,7 +114,7 @@ header h1 {
     margin-top:3rem;
     text-align:left;
     font-size: 1.5rem;
-    color:#1E98FD;
+    color:black;
     letter-spacing:1px;
     line-height: 1.8;
     text-align: justify;
@@ -129,6 +141,8 @@ footer a:hover {
     font-weight: bold;
     color:black;
 }
+
+
 
 
 @media (max-width:500px) {
@@ -165,14 +179,14 @@ footer a:hover {
     }
     
     .small-span {
-        color:black;
+        color:#1E98FD;
         font-size:1rem;
     }
     .container-rest p {
         margin-top:3rem;
         text-align:left;
         font-size: 1rem;
-        color:#1E98FD;
+        color:black;
         letter-spacing:0px;
         line-height: 1.25;
         text-align: justify;
@@ -189,3 +203,4 @@ footer {
     align-items: center;
 }
 }
+  
