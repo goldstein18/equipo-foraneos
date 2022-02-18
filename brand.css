@@ -127,12 +127,15 @@ header h1 a:visited {
     
 }
 footer {
-    background:#1E98FD;
+
+   background:#1E98FD;
     color: white;
     padding: 3em 0;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+   
+
 }
 
 footer a {
